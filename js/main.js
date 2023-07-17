@@ -159,7 +159,7 @@ var base_url = window.location.origin;
 let model;
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel("https://maneprajakta.github.io/Digit_Recognition_Web_App/models/model.json")
+    model = await tf.loadLayersModel("https://Anas464410.github.io/Digit-Recognition-WebApp/models/model.json")
     console.log("model loaded..");
 })();
 
